@@ -1,0 +1,155 @@
+*{
+  /* border:blue 1px solid; */
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* color:white; */
+}
+body{
+  width:100vw;
+  height:100vh;
+  /* background-color: #0B2059; */
+}
+#setup{
+  display:grid;
+  grid-template-areas: 
+  '.        axis        .'
+  'place    board    ships'
+  'replace  board    ships'
+  'clear  board    ships'
+  '.        startgame   .';
+  grid-gap:10px;
+  border: red solid 2px;
+  align-items: center;
+  justify-content: center;
+}
+#changeAxis{
+  grid-area: axis;
+}
+#auto-place-ships,#replace-ships,#clear-ships{
+  width:100px;
+  height:100px;
+  align-items: center;
+  justify-content: center;
+}
+#auto-place-ships{
+  grid-area: place;
+}
+#replace-ships{
+  grid-area: replace;
+}
+#clear-ships{
+  grid-area: clear;
+}
+#start{
+  grid-area: startgame;
+}
+#ships-display{
+  grid-area: ships;
+  width:300px;
+  height:300px;
+  bottom:50px;
+  position: relative;
+}
+#player-setup-board{
+  grid-area: board;
+  display:grid;
+  width:400px;
+  height:400px;
+  border: solid black 1px;
+  gap:10px;
+}
+#draggable{
+  display:flex;
+  grid-gap: 20px;
+  flex-wrap: wrap;
+}
+#game{
+  display: none;
+  border:solid red 2px;
+  grid-gap:50px;
+  align-items:center;
+  justify-content: center;
+  text-align: center;
+  padding:20px;
+}
+.gameboard{
+  display:grid;
+  width:400px;
+  height:400px;
+  border: solid black 1px;
+  gap:10px; 
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+/* standard square display without any attacks or ship placement */
+.gamesquare{
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  display:flex;
+}
+.shipsquare{
+  width:30px;
+  height:30px;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
+.horizontal{
+  display:flex;
+  gap:8px; 
+}
+.vertical{
+  display:grid;
+  gap:8px; 
+}
+.gamesquare:hover{
+  opacity:0.9;
+}
+/* When square has been attacked */
+.attacked{
+  background-color: red;
+  opacity:0.7;
+}
+/* When square has been filled by ship placement */
+.filled{
+  background-color:green;
+}
+/* When ship from ship display has been placed */
+.used{
+  color:red
+}
+/* The Modal (background) */
+#modal {
+  display: none; 
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0%;
+  top: 0%;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#modal-content{
+  position:relative;
+  width:600px;
+  height:400px;
+  align-items: center;
+  border-radius: 10px;
+  border: solid red 2px;
+  background-color: beige;
+  text-align: center;
+  justify-content: center;
+  padding-top: 4rem;
+  margin: auto;
+  top:25%;
+}

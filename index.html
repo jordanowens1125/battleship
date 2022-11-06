@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div id="setup">
+        <button id="changeAxis"></button>
+        <button id="auto-place-ships" onclick="autoPlaceShips()">Place  Remaining Ships</button>
+        <button id="replace-ships" onclick="replaceShips()">Replace Ships</button>
+        <button id="clear-ships" onclick="clearShips()">Clear Ships</button>
+        <div id="player-setup-board"></div>
+        <div id="ships-display">
+            <h3>Place Ships</h3>
+            <div id="draggable">
+                <div id="destroyer" draggable="true" ondragstart="drag(event)">destroyer</div>
+                <div id="submarine" draggable="true" ondragstart="drag(event)">submarine</div>
+                <div id="cruiser" draggable="true" ondragstart="drag(event)">cruiser</div>
+                <div id="battleship" draggable="true" ondragstart="drag(event)">battleship</div>
+                <div id="carrier" draggable="true" ondragstart="drag(event)">carrier</div>
+            </div>
+        </div>
+        <button id ='start' onclick="changeGameMode()">Start Game</button>
+    </div>
+    <div id="game-info">
+    
+    <div id="game">
+        <span id="player">
+            <h3>Your Fleet</h3>
+            <div id="player-last-hit-coordinates"></div>
+            <div id="player-board">
+                player grid
+            </div>
+            <div id="player-fleet-count"></div>
+        </span>
+        <span>VS</span>
+        <span id="cpu">
+            <h3>General CPU's Fleet</h3>
+            <div id="cpu-last-hit-coordinates"></div>
+            <div id="cpu-board">
+                cpu grid
+            </div>
+            <div id="cpu-fleet-count"></div>
+        </span>
+    </div>
+    
+    <div id="modal">
+        <div id='modal-content'>
+            <p id ='game-result'> Game Result</p>
+            <button  onclick="reload()">Play Again</button>
+        </div>
+        
+    </div>
+</body>
+<script  src="scripts.js"></script>
+</html>
