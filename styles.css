@@ -1,3 +1,4 @@
+/* https://coolors.co/f03a47-af5b5b-f6f4f3-276fbf-183059 */
 *{
   /* border:blue 1px solid; */
   margin:0;
@@ -8,9 +9,14 @@
 body{
   width:100vw;
   height:100vh;
-  /* background-color: #0B2059; */
+  background-color: #F6F4F3;
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='540' height='450' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E"); */
 }
 #setup{
+  width: fit-content; 
+  /* To adjust the height as well */ 
+  height: fit-content;
+  margin: auto;
   display:grid;
   grid-template-areas: 
   '.        axis        .'
@@ -18,14 +24,31 @@ body{
   'replace  board    ships'
   'clear  board    ships'
   '.        startgame   .';
-  grid-gap:10px;
-  border: red solid 2px;
+  grid-gap:25px;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  border-radius: 10px;
 }
 #changeAxis{
   grid-area: axis;
+  font-weight: 0;
+  font-size: 14px;
+  color: #F6F4F3;
+  background-color: #276FBF;
+  padding: 10px 30px;
+  border: solid #276FBF 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 10px;
+  transition : 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
 }
+
 #auto-place-ships,#replace-ships,#clear-ships{
   width:100px;
   height:100px;
@@ -34,15 +57,74 @@ body{
 }
 #auto-place-ships{
   grid-area: place;
+
 }
 #replace-ships{
   grid-area: replace;
 }
+#auto-place-ships,#replace-ships{
+  font-weight: 0;
+  font-size: 14px;
+  color: #F6F4F3;
+  background-color: #276FBF;
+  padding: 10px 30px;
+  border: solid #276FBF 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 10px;
+  transition : 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
 #clear-ships{
   grid-area: clear;
+  font-weight: 0;
+  font-size: 14px;
+  color: #F6F4F3;
+  background-color: #f03a47;
+  padding: 10px 30px;
+  border: solid #f03a47 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 10px;
+  transition : 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
 }
+#clear-ships:hover{
+  transform : translateY(-0px);
+  background-color: #F6F4F3;
+  color: #183059;
+  border: none;
+}
+
 #start{
   grid-area: startgame;
+  font-weight: 0;
+  font-size: 14px;
+  color: #F6F4F3;
+  background-color: #183059;
+  padding: 10px 30px;
+  border: solid #183059 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 10px;
+  transition : 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+#start:hover{
+  transform : translateY(-0px);
+  background-color: #F6F4F3;
+  color: #f03a47;
+  border: none;
 }
 #ships-display{
   grid-area: ships;
@@ -56,7 +138,6 @@ body{
   display:grid;
   width:400px;
   height:400px;
-  border: solid black 1px;
   gap:10px;
 }
 #draggable{
@@ -66,7 +147,6 @@ body{
 }
 #game{
   display: none;
-  border:solid red 2px;
   grid-gap:50px;
   align-items:center;
   justify-content: center;
@@ -77,13 +157,12 @@ body{
   display:grid;
   width:400px;
   height:400px;
-  border: solid black 1px;
   gap:10px; 
 }
 .dot {
   height: 20px;
   width: 20px;
-  background-color: black;
+  background-color: #183059;
   border-radius: 50%;
   display: inline-block;
 }
@@ -91,7 +170,7 @@ body{
 .gamesquare{
   justify-content: center;
   align-items: center;
-  background-color: pink;
+  border: solid 2px #183059;
   display:flex;
 }
 .shipsquare{
@@ -100,6 +179,10 @@ body{
   justify-content: center;
   align-items: center;
   display:flex;
+  background-color: #276FBF;
+}
+.shiphead{
+  border:dashed 5px #183059;
 }
 .horizontal{
   display:flex;
@@ -114,16 +197,18 @@ body{
 }
 /* When square has been attacked */
 .attacked{
-  background-color: red;
+  background-color: #F03A47;
   opacity:0.7;
 }
 /* When square has been filled by ship placement */
 .filled{
-  background-color:green;
+  background-color: #276FBF;
+  opacity:1;
 }
 /* When ship from ship display has been placed */
 .used{
-  color:red
+  color:#F03A47;
+  opacity:.5;
 }
 /* The Modal (background) */
 #modal {
@@ -145,11 +230,31 @@ body{
   height:400px;
   align-items: center;
   border-radius: 10px;
-  border: solid red 2px;
-  background-color: beige;
+  background-color: #276FBF;
   text-align: center;
   justify-content: center;
   padding-top: 4rem;
   margin: auto;
   top:25%;
+}
+
+#reload{
+  font-weight: 0;
+  font-size: 14px;
+  color: #276FBF;
+  background-color: #F6F4F3;
+  padding: 10px 30px;
+  border: solid #183059 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 10px;
+  transition : 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+#reload:hover{
+  color:#183059;
+
 }

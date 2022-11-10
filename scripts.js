@@ -505,7 +505,10 @@ async function showcaseShips(gameBoard){
         shipDiv.style.gridArea=key
         let shipdisplay = document.createElement('div')
         for(let i=0;i<ships[key].length;i++){
-            let newDiv = document.createElement('div');
+            newDiv = document.createElement('div');
+            if(i==0){
+                newDiv.classList.add('shiphead')
+            }
             newDiv.classList.add('shipsquare')
             newDiv.classList.add('filled')
             shipdisplay.appendChild(newDiv)
